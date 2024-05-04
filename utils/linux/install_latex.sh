@@ -9,7 +9,6 @@ sudo apt install ttf-mscorefonts-installer
 
 # Install xelatex and latexmk
 sudo apt install latexmk
-sudo apt install xelatex
 
 # Include Paths using .bashrc file
 echo "# Latex config" >> ~/.bashrc
