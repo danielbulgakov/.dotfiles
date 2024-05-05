@@ -21,7 +21,7 @@
 }
 ```
 
-Для того, чтобы создать файл с `.py` файлами нужно использовать скрипт `file_content_to_latex.py` следующим образом
+Для того, чтобы создать LaTeX файл со всеми `.py` файлами нужно использовать скрипт `file_content_to_latex.py` следующим образом
 
 ```
 python3 ./file_content_to_latex.py /path/to/dir output_file_latex.tex
@@ -31,5 +31,5 @@ python3 ./file_content_to_latex.py /path/to/dir output_file_latex.tex
 используя команду 
 
 ```
-\input{out}
+\input{output_file_latex}
 ```
